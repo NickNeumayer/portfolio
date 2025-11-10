@@ -1,0 +1,131 @@
+body {
+    background: linear-gradient(135deg, #004466, #336699);
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+  }
+  header {
+    text-align: center;
+    padding: 4rem 1rem;
+    background: none;
+  }
+  header h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    color: #fff;
+    text-shadow: 2px 2px #000;
+  }
+  header p {
+    font-size: 1.25rem;
+    color: #e6f2ff;
+  }
+  section {
+    padding: 4rem 0;
+  }
+  .section-title {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #fff;
+    text-shadow: 1px 1px #000;
+  }
+  .profile-photo {
+    display: block;
+    margin: 0 auto 1.5rem auto;
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.6);
+  }
+  .card {
+    background-color: rgba(0, 0, 0, 0.6);
+    border: none;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+    padding: 1.5rem;
+    text-align: center;
+  }
+  .card:hover {
+    transform: scale(1.05);
+  }
+  .card img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+  }
+  .card h5, .card p {
+    color: #fff;
+  }
+  .btn-custom {
+    background-color: #3399ff;
+    color: #fff;
+    border-radius: 25px;
+  }
+  footer {
+    background-color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    padding: 2rem;
+    color: #ccc;
+  }
+  a.social-icon {
+    color: #99ccff;
+    margin: 0 10px;
+    font-size: 1.5rem;
+    transition: color 0.3s;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+  a.social-icon:hover {
+    color: #fff;
+  }
+  .x-logo {
+    width: 20px;
+    height: 20px;
+    fill: currentColor;
+    
+  }
+
+h1 {
+  color: white;
+ font-family: "Rubik Wet Paint", system-ui;
+ font-weight: bold;
+  padding: 5px;
+  font-size:50px;
+  
+}
+
+h2{
+  color: blue;
+  font-family: "helvetica";
+  
+}
+
+section{
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+  border-bottom: 1px solid blue
+}
+
+section section{
+  border: 3px solid blue;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: grey;
+}
+
+blockquote p{
+    font-size: 24px;
+    font-style: italic;
+}
+
+blockquote cite {
+  font-family: "helvetica";
+    font-style: normal;
+  font-size: 16px;
+  text-align: right;
+  display:block;
+}
